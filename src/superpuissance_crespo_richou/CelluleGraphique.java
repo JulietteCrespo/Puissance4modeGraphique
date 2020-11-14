@@ -15,7 +15,7 @@ import javax.swing.JButton;
  */
 public class CelluleGraphique extends JButton{
     Cellule celluleAssociee;
-    ImageIcon img_vide = new javax.swing.ImageIcon(getClass().getResource("images/ celluleVide.png"));
+    ImageIcon img_vide = new javax.swing.ImageIcon(getClass().getResource("/images/celluleVide.png"));
     
     public CelluleGraphique(Cellule uneCellule){
         celluleAssociee = uneCellule;
